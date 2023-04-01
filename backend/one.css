@@ -1,0 +1,60 @@
+.div1{
+    font-size: 50px;
+    color: white;
+    padding: 60px 0px;
+    text-align: center;
+    background-color: aqua;
+}
+.para{
+    display: flex;
+  
+}
+#one{
+    background-color: blanchedalmond;
+}
+#two{
+    background-color: blue;
+}
+.image{
+    display: flex;
+}
+
+
+
+ /* media quaries */
+ @media only screen and (max-width:992px) {
+    
+    .div1{
+        background-color:chartreuse;
+        font-size: 30px;
+    }
+    .para{
+        display: block;
+    }
+ }
+ @media only screen and (max-width:700px) {
+    
+    .div1{
+        background-color:rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    .para{
+        display: block;
+    }
+    .image{
+        display: block;
+    }
+    .image img{
+        display: none;
+    }
+ }
+ @media only screen and (max-width:600px) {
+    
+    .div1{
+        background-color: green;
+        font-size: 10px;
+    }
+    .para{
+        display: block;
+    }
+ }
