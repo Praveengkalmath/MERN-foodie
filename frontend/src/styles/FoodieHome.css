@@ -1,0 +1,22 @@
+.bt:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.navbar-nav a{
+margin-left: 25px;
+}
+
+.bt2{
+    background-color:black;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    margin: 12px;
+    border: 0px;
+}
+.bt2:hover{
+    background-color: orangered;
+    border: 0px;
+}
